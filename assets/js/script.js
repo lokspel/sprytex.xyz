@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 
 // 4. Copy IP
 function copyIp() {
-    navigator.clipboard.writeText("f3f5.net");
+    navigator.clipboard.writeText("sprytex.xyz");
     const toast = document.getElementById('toast');
     if (toast) {
         toast.classList.add('show');
@@ -130,3 +130,4 @@ if (canvas) {
     initParticles();
     animate();
 }
+
