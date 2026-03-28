@@ -5,6 +5,7 @@
     --accent: #dc2626; /* Red for Anarchy */
     --kofi: #00b9fe;
     --discord: #5865F2;
+    --telegram: #0088cc;
     --youtube: #FF0000;
     --text-main: #ffffff;
     --text-muted: #9ca3af;
@@ -205,6 +206,7 @@ section { padding: 100px 0; }
 .social-card i { font-size: 2.5rem; transition: 0.3s; }
 .social-card.discord:hover { border-color: var(--discord); background: rgba(88, 101, 242, 0.1); }
 .social-card.discord i { color: var(--discord); }
+.social-card.telegram:hover { border-color: #0088cc; background: rgba(0, 136, 204, 0.1); } .social-card.telegram i { color: #0088cc; }
 .social-card.youtube:hover { border-color: var(--youtube); background: rgba(255, 0, 0, 0.1); }
 .social-card.youtube i { color: var(--youtube); }
 .social-info h3 { font-size: 1.2rem; margin-bottom: 4px; }
